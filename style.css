@@ -1,5 +1,13 @@
 body {
-  margin: auto;
+  margin: 0;
+}
+.CONTACT_FORM{
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
 }
 .CONTACT_FORM_FIELDSET {
   display: flex;
@@ -17,18 +25,18 @@ body {
   50%,
   70%,
   90% {
-    transform: translateX(-10px);
+    transform: translateX(-5px);
   }
   20%,
   40%,
   60%,
   80% {
-    transform: translateX(10px);
+    transform: translateX(5px);
   }
 }
 
 
 .shake {
-    transition: shake 0.5s ease-in-out;
+    animation: shake 0.5s ease-in-out;
   }
   
